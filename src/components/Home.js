@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import DirectoryListItem from "./DirectoryListItem";
 import generalData from "../helpers/data.json";
 import "../sass/_c-home.scss";
+import "../sass/_c-form.scss";
 
 export default function Home(){
     const [form, setForm] = useState("");
@@ -26,18 +27,21 @@ export default function Home(){
         <div className="c-home">
             <div className="c-home__directory">
                 <h2>Directory</h2>
-                <form >
-                    <label>Escribe lo que deseas buscar</label>;
-                    <input 
-                        type="text" 
-                        id="busqueda"
-                        name="busqueda" 
-                        value={form}
-                        onChange={ handleChange }
-                    />
-                    <input 
-                        type="submit" 
-                    />
+                <form className="c-form">
+                    <fieldset>
+                        <input 
+                            type="text" 
+                            id="busqueda"
+                            name="busqueda"
+                            placeholder="Escribe lo que deseas buscar"
+                            value={form}
+                            onChange={ handleChange }
+                        />
+                        <input 
+                            type="submit" 
+                        />
+                    </fieldset>
+                    
                 </form>
             </div>
             <div className="c-home__directory-list">
