@@ -1,0 +1,41 @@
+{
+    "information" : [
+        {
+            "id": 1,
+            "imageUser": "https://via.placeholder.com/150x150",
+            "shortDescription": "Lorem Ipsum",
+            "email": "dummy@dummy.com",
+            "sections" : {
+                "lyfeStyle": {
+                    "fullName": "Dummy Name1",
+                    "job": "Job Data",
+                    "birthday": "January 1, 2022",
+                    "street": "Street 945, Central Park",
+                    "placeBirth": "New york, Unitated State",
+                    "maritalStatus": "Married"
+                },
+                "language": {
+                    "idiom": "English",
+                    "languageLevel": "Basic"
+                },
+                "education": {
+                    "unviersity": "Harvard University",
+                    "career": "Software engineer",
+                    "location": "Unitated State",
+                    "startDate": "February 1, 2022",
+                    "endDate": "Decemeber 1, 2023"
+                },
+                "experience": {
+                    "company": "Google",
+                    "career": "Software engineer",
+                    "location": "Unitated State",
+                    "startDate": "February 1, 2023",
+                    "endDate": "Decemeber 1, 2024"
+                }
+            }
+        }
+        
+            
+        
+    ]
+}

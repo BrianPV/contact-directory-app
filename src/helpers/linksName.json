@@ -1,0 +1,46 @@
+{
+    "linksName": [
+        {
+            "id": 1,
+            "icon": "https://via.placeholder.com/25x25",
+            "name": "Principal",
+            "route": "/"
+        },
+        {
+            "id": 2,
+            "icon": "https://via.placeholder.com/25x25",
+            "name": "Mi perfil",
+            "route": "/profile"
+        },
+        {
+            "id": 3,
+            "icon": "https://via.placeholder.com/25x25",
+            "name": "Editar Informacion",
+            "route": "/missing"
+        },
+        {
+            "id": 4,
+            "icon": "https://via.placeholder.com/25x25",
+            "name": "Proyectos",
+            "route": "/missing"
+        },
+        {
+            "id": 5,
+            "icon": "https://via.placeholder.com/25x25",
+            "name": "Capacitaciones",
+            "route": "/missing"
+        },
+        {
+            "id": 6,
+            "icon": "https://via.placeholder.com/25x25",
+            "name": "Publicaciones",
+            "route": "/missing"
+        },
+        {
+            "id": 7,
+            "icon": "https://via.placeholder.com/25x25",
+            "name": "Regresar al portal",
+            "route": "/"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+$color-bg-hover: #e9fef7;
+$color-link-hover: #4eb8d5;
+
+.c-nav-item{
+    
+    &__link{
+        display: flex;
+        align-items: center;
+        padding: 0 12px;
+        transition: all 0.5s ease-in;
+        p{
+            padding-left: 12px;
+        }
+        &:hover{
+            background-color: $color-bg-hover;
+            color: $color-link-hover;
+            font-weight: bold;
+        }
+    }
+
+    
+}
