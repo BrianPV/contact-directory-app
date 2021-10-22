@@ -1,0 +1,65 @@
+$color-bg-hover: #e9fef7;
+
+.c-directory-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 5px 6px 0px #0E0E0E40;
+    width: 90%;
+    margin: auto;
+    border-radius: 4px;
+    max-width: 300px;
+    transition: all 0.5s ease-in;
+    &__link{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h3, p , em{
+            padding-left: 16px;
+            margin: 0;
+            transition: all 0.5s ease-in;
+        }
+
+        h3{
+            padding-top: 16px;
+            padding-bottom: 4px;
+        }
+
+        p{
+            padding-bottom: 16px;
+            font-size: 12px;
+        }
+
+        em{
+            font-size: 14px;
+            font-style: normal;
+        }
+        
+    }
+
+    &__link2{
+        display: block;
+        width: 100%;
+        padding-left: 16px;
+        font-size: 12px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        opacity: 0.5;
+        transition: all 0.5s ease-in;
+        &:hover{
+            opacity: 1;
+        }
+    }
+
+    &:hover{
+        background-color: $color-bg-hover;
+        transform: scale(1.1);
+    }
+}
