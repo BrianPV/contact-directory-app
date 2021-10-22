@@ -7,9 +7,9 @@ $color-bg-hover: #e9fef7;
     flex-direction: column;
     box-shadow: 3px 5px 6px 0px #0E0E0E40;
     width: 90%;
-    margin: auto;
+    margin: 0 auto 24px auto;
     border-radius: 4px;
-    max-width: 300px;
+    max-width: 350px;
     transition: all 0.5s ease-in;
     &__link{
         display: flex;
@@ -60,6 +60,16 @@ $color-bg-hover: #e9fef7;
 
     &:hover{
         background-color: $color-bg-hover;
-        transform: scale(1.1);
+    }
+}
+
+@media (min-width: 768px) {
+    .c-directory-item{
+        width: 45%;
+    }
+}
+@media (min-width: 1024px) {
+    .c-directory-item{
+        width: calc(33% - 16px);
     }
 }

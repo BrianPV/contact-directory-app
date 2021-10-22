@@ -4,4 +4,24 @@
         padding: 16px;
     }
 
+    &__directory-list{
+        padding: 24px 0;
+
+    }
+
+}
+
+@media (min-width: 768px) {
+    .c-home{
+
+        &__directory-list{
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+            }
+    
+        }
+    
+    }
+    
 }

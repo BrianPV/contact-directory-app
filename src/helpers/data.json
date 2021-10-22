@@ -1,41 +1,141 @@
-{
-    "information" : [
-        {
-            "id": 1,
-            "imageUser": "https://via.placeholder.com/150x150",
-            "shortDescription": "Lorem Ipsum",
-            "email": "dummy@dummy.com",
-            "sections" : {
-                "lyfeStyle": {
-                    "fullName": "Dummy Name1",
-                    "job": "Job Data",
-                    "birthday": "January 1, 2022",
-                    "street": "Street 945, Central Park",
-                    "placeBirth": "New york, Unitated State",
-                    "maritalStatus": "Married"
-                },
-                "language": {
-                    "idiom": "English",
-                    "languageLevel": "Basic"
-                },
-                "education": {
-                    "unviersity": "Harvard University",
-                    "career": "Software engineer",
-                    "location": "Unitated State",
-                    "startDate": "February 1, 2022",
-                    "endDate": "Decemeber 1, 2023"
-                },
-                "experience": {
-                    "company": "Google",
-                    "career": "Software engineer",
-                    "location": "Unitated State",
-                    "startDate": "February 1, 2023",
-                    "endDate": "Decemeber 1, 2024"
-                }
+[
+    {
+        "id": 0,
+        "imageUser": "https://via.placeholder.com/300x300",
+        "shortDescription": "1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "email": "dummy1@dummy.com",
+        "fullName": "Omar emmanuel",
+        "Trabajo": "Job Data1",
+        "sections" :[
+            {
+                "id": 0,
+                "Titulo":"Hoja de vida",
+                "Nombre Completo": "Omar emmanuel",
+                "Fecha de nacimiento": "January 1, 2022",
+                "Domicilio": "Street 945, Central Park",
+                "Lugar de nacimiento": "New york, Unitated State",
+                "Estado Civil": "Married",
+                "subtitle": "Informacion Personal"
+            },{
+                "id": 1,
+                "Titulo": "Lenguaje",
+                "Idioma": "English",
+                "Nivel": "Basic",
+                "subtitle": "Dominio del lenguaje"
+            },
+            {
+                "id": 2,
+                "Titulo": "Educacion",
+                "Universidad": "Harvard University",
+                "Carrera": "Software engineer",
+                "Localidad": "Unitated State",
+                "Fecha de inicio": "February 1, 2022",
+                "Fecha de termino": "Decemeber 1, 2023",
+                "subtitle": "Informacion Educacional"
+            },
+            {
+                "id": 3,
+                "Titulo": "Experiencia",
+                "Empresa": "Google",
+                "Carrera": "Software engineer",
+                "Localidad": "Unitated State",
+                "Fecha de inicio": "February 1, 2023",
+                "Fecha de termino": "Decemeber 1, 2024",
+                "subtitle": "Informacion Profesional"
             }
-        }
-        
-            
-        
-    ]
-}
+        ]
+    },
+    {
+        "id": 1,
+        "imageUser": "https://via.placeholder.com/300x300",
+        "shortDescription": "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "email": "dummy2@dummy.com",
+        "fullName": "Luis Omar",
+        "Trabajo": "Job Data2",
+        "sections" :[
+            {
+                "id": 0,
+                "Titulo":"Hoja de vida",
+                "Nombre Completo": "Luis Omar",
+                "Fecha de nacimiento": "January 1, 2022",
+                "Domicilio": "Street 945, Central Park",
+                "Lugar de nacimiento": "New york, Unitated State",
+                "Estado Civil": "Married",
+                "subtitle": "Informacion Personal"
+            },{
+                "id": 1,
+                "Titulo": "Lenguaje",
+                "Idioma": "English",
+                "Nivel": "Basic",
+                "subtitle": "Dominio del lenguaje"
+            },
+            {
+                "id": 2,
+                "Titulo": "Educacion",
+                "Universidad": "Harvard University",
+                "Carrera": "Software engineer",
+                "Localidad": "Unitated State",
+                "Fecha de inicio": "February 1, 2022",
+                "Fecha de termino": "Decemeber 1, 2023",
+                "subtitle": "Informacion Educacional"
+            },
+            {
+                "id": 3,
+                "Titulo": "Experiencia",
+                "Empresa": "Google",
+                "Carrera": "Software engineer",
+                "Localidad": "Unitated State",
+                "Fecha de inicio": "February 1, 2023",
+                "Fecha de termino": "Decemeber 1, 2024",
+                "subtitle": "Informacion Profesional"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "imageUser": "https://via.placeholder.com/300x300",
+        "shortDescription": "3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "email": "dummy3@dummy.com",
+        "fullName": "Jose Perez",
+        "Trabajo": "Job Data3",
+        "sections" :[
+            {
+                "id": 0,
+                "Titulo":"Hoja de vida",
+                "Nombre Completo": "Dummy Name3",
+                "Fecha de nacimiento": "January 1, 2022",
+                "Domicilio": "Street 945, Central Park",
+                "Lugar de nacimiento": "New york, Unitated State",
+                "Estado Civil": "Married",
+                "subtitle": "Informacion Personal"
+            },{
+                "id": 1,
+                "Titulo": "Lenguaje",
+                "Idioma": "English",
+                "Nivel": "Basic",
+                "subtitle": "Dominio del lenguaje"
+            },
+            {
+                "id": 2,
+                "Titulo": "Educacion",
+                "Universidad": "Harvard University",
+                "Carrera": "Software engineer",
+                "Localidad": "Unitated State",
+                "Fecha de inicio": "February 1, 2022",
+                "Fecha de termino": "Decemeber 1, 2023",
+                "subtitle": "Informacion Educacional"
+            },
+            {
+                "id": 3,
+                "Titulo": "Experiencia",
+                "Empresa": "Google",
+                "Carrera": "Software engineer",
+                "Localidad": "Unitated State",
+                "Fecha de inicio": "February 1, 2023",
+                "Fecha de termino": "Decemeber 1, 2024",
+                "subtitle": "Informacion Profesional"
+            }
+        ]
+    }
+
+]

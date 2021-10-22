@@ -1,0 +1,20 @@
+.c-missing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    img{
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .c-missing{
+        flex-direction: row;
+        img{
+            width: 40%;
+        }
+    }
+}
